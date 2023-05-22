@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+
+
+    <link rel="stylesheet" href="main.css">
+    <script src="bundle.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content-wraper">
+            <h1>Guess the number game!</h1>
+        <section class="inlogg game" id="inlogg" name="inlogg">
+            <form class="navnin" id="navnin">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+                <button type="submit">Registrer</button>
+            </form>
+        </section>
+            <section class="game hidden">
+                <h3>Number: </h3>
+                <input type="number" name="number" id="number">
+                <h2 class="answer"></h2>
+                <p class="feedback" id="feedback">Guess a number between 1-100!</p>
+        </section>
+            <h3 class="game hidden">Score:</h3>
+            <h3 class="scorefield"></h3>
+    </div>
+    <h2>Leaderboard</h2>
+    <div class="leaderboard">
+        
+
+    </div>
+
+</body>
+</html>
